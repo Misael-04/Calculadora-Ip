@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora IP</title>
+</head>
+
+<body>
+<div id="contenido">
+        <div id="direccion_ip">
+    
+            <h1>Ingresa la direccion IP y el sufijo</h1>
+            <form id="octetos">
+                <input type="text" id="primerOcteto" placeholder="192">
+                .
+                <input type="text" id="segundoOcteto" placeholder="168">
+                .
+                <input type="text" id="tercerOcteto" placeholder="10">
+                .
+                <input type="text" id="cuartoOcteto" placeholder="0">
+                /
+                <input type="text" id="prefijo" placeholder="24">
+                <input type="submit" value="calcular" id="calcular">
+            </form>
+        </div>
+    
+    
+        <div id="resultados">
+            <div id="direccion"><h3>Tu direccion IP</h3></div>
+            <div id="red"><h3>Red</h3></div>
+            <div id="mascara"><h3>Mascara de red</h3></div>
+            <div id="primerHostValido"><h3>Primer Host valido</h3></div>
+            <div id="ultimoHostValido"><h3>Ultimo Host valido</h3></div>
+            <div id="wilcard"><h3>Wilcard</h3></div>
+            <div id="broadcast"><h3>Broadcast</h3></div>
+        </div>
+    
+    
+    
+</div id="contenido">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="calculadora.js"></script>
+</body>
+
+</html>
