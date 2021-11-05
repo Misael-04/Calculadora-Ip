@@ -1299,19 +1299,19 @@ $('#resultados').hide();
 
 
    $('#direccion').append('<h4 id = "direccionRed">' + direccionIp + '</h4>');
-   $('#direccion').append('<h4 id = "direccionRedBinario">' + direccionIpBinario + '</h4>');
+   $('#direccion').append(`<h5 id = "direccionRedBinario">${direccionIpBinario}</h5>`);
    $('#red').append('<h4>' + direccionRed +'</h4>');
-   $('#red').append('<h4>' + direccionRedBinario +'</h4>');
+   $('#red').append('<h5>' + direccionRedBinario +'</h5>');
    $('#mascara').append('<h4>' + mascara + '</h4');
-   $('#mascara').append('<h4>' + mascaraBinario + '</h4');
+   $('#mascara').append('<h5>' + mascaraBinario + '</h4');
    $('#primerHostValido').append('<h4>' + primerHost + '</h4');
-   $('#primerHostValido').append('<h4>' + primerHostBinario + '</h4');
+   $('#primerHostValido').append('<h5>' + primerHostBinario + '</h4');
    $('#ultimoHostValido').append('<h4>' + ultimoHost + '</h4');
-   $('#ultimoHostValido').append('<h4>' + ultimoHostBinario + '</h4');
+   $('#ultimoHostValido').append('<h5>' + ultimoHostBinario + '</h4');
    $('#wilcard').append('<h4>' + wildcard + '</h4');
-   $('#wilcard').append('<h4>' + wildcardBinario + '</h4');
+   $('#wilcard').append('<h5>' + wildcardBinario + '</h4');
    $('#broadcast').append('<h4>' + broadcast + '</h4');
-   $('#broadcast').append('<h4>' + broadcastBinario + '</h4');
+   $('#broadcast').append('<h5>' + broadcastBinario + '</h4');
 
    
  });   
