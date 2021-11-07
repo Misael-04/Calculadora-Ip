@@ -218,3 +218,8 @@
     margin-left: 2px;
   }
 }
+@media (max-width: 375px) {
+  #contenido #direccion_ip {
+    margin-left: 10%;
+  }
+}

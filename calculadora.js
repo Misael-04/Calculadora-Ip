@@ -30,6 +30,7 @@ $(document).ready(function(){
 $('#resultados').hide();
        $('#resultados').slideDown();
        $('h4').remove();
+       $('h5').remove();
     
      ////////////CONVERSOR//////////////////////////
 
@@ -1303,15 +1304,15 @@ $('#resultados').hide();
    $('#red').append('<h4>' + direccionRed +'</h4>');
    $('#red').append('<h5>' + direccionRedBinario +'</h5>');
    $('#mascara').append('<h4>' + mascara + '</h4');
-   $('#mascara').append('<h5>' + mascaraBinario + '</h4');
+   $('#mascara').append('<h5>' + mascaraBinario + '</h5');
    $('#primerHostValido').append('<h4>' + primerHost + '</h4');
-   $('#primerHostValido').append('<h5>' + primerHostBinario + '</h4');
+   $('#primerHostValido').append('<h5>' + primerHostBinario + '</h5');
    $('#ultimoHostValido').append('<h4>' + ultimoHost + '</h4');
-   $('#ultimoHostValido').append('<h5>' + ultimoHostBinario + '</h4');
+   $('#ultimoHostValido').append('<h5>' + ultimoHostBinario + '</h5');
    $('#wilcard').append('<h4>' + wildcard + '</h4');
-   $('#wilcard').append('<h5>' + wildcardBinario + '</h4');
+   $('#wilcard').append('<h5>' + wildcardBinario + '</h5');
    $('#broadcast').append('<h4>' + broadcast + '</h4');
-   $('#broadcast').append('<h5>' + broadcastBinario + '</h4');
+   $('#broadcast').append('<h5>' + broadcastBinario + '</h5');
 
    
  });   
